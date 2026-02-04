@@ -1,0 +1,11 @@
+.productCart .textPart{
+    transition:transform 0.3s ease-out;
+}
+
+.productCart:hover .textPart{
+    transform: translateY(-1rem);
+}
+
+.productCart:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
